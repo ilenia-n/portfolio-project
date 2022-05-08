@@ -1,11 +1,10 @@
 :root {
   --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --secondary-color: #EF5F9A;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   margin: 0;
@@ -81,6 +80,7 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--secondary-color);
 }
 
 .link-projects {
@@ -96,4 +96,40 @@ p {
   padding: 20px 0 0 0;
   text-align: left;
   margin-bottom: 40px;
+}
+
+
+@media (max-width: 576px) {
+h1{
+  font-size: 68px;
+}
+
+  h2{
+    text-align:center;
+    font-size: 30px;
+  }
+  
+
+  .link-projects{
+    display: block;
+    text-align: center;
+    margin: 0 50px;
+    
+  }
+
+  .homepage-img{
+    display: none;
+  }
+
+  .email-link{
+    font-size: 20px;
+  }
+
+  img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
 }
