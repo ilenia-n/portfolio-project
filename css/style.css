@@ -132,4 +132,8 @@ h1{
     margin: auto;
   }
 
+  p{
+    text-align: left;
+  }
+
 }
